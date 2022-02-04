@@ -28,3 +28,6 @@ A low power 8-bit MCU controls capacitive touch and power gates a 32-bit MCU run
 Keyword spotting model to be developed using Edge Impulse or similar service. Audible low battery alert using piezo.
 Capacitive touch pad likely to be a small exposed PCB.
 
+Latching Solenoid Pinch Valve:
+https://www.images.pumps-valves.eu/fileadmin/datenblaetter/bmt-en/Pinch-valves-to-2mm.pdf
+
