@@ -19,8 +19,7 @@ Initial Solution Idea:
 		 Receiver unit. An off-the-shelf latching solenoid pinch valve controls the silicon tubing in the slotted section.
 		 Unit has secure BLE connection with only its paired Sender unit.
 		 Audible low battery alert using piezo.
-		 Multiple power rails may be needed: 3.3, 12V using Buck/Boost converters.
-	 
+		 Multiple power rails may be needed: 3.3, 12V using Buck/Boost converters. 
 	Sender:
 		Small handheld unit uses 2 MCUs. An 8-bit 2FA (Capacitive touch pad & keyword spotting) to trigger a send order. 
 		A low power 8-bit MCU controls capacitive touch and power gates a 32-bit MCU running keyword spotting model.
