@@ -110,6 +110,13 @@ Troubleshooting
     Terminal - they will state the file name and line number to look at.
     Fix the error, save the file, and repeat Step 1.
 
+"Verify mismatch" or "Verification failed"
+    The chip was not erased before programming. This is handled automatically
+    by the --erase flag in the task. If you see this error, make sure you are
+    running the task from VS Code (Tasks: Run Task > Program ATtiny1627) and
+    not from an older saved command. Rebuilding and re-running the task should
+    resolve it.
+
 The build succeeded but the old program is still running on the chip
     Make sure Step 2 completed with "Programming successful" at the end.
     If the task seemed to skip or close instantly, check that the Curiosity

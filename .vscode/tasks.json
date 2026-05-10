@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Program ATtiny1627",
+            "type": "shell",
+            "command": "/opt/microchip/xc8/v3.10/avr/bin/avr-objcopy -O ihex ${workspaceFolder}/out/Tiny2_BM_Deep_Sleep_CapTouch_Wake/default.elf ${workspaceFolder}/out/Tiny2_BM_Deep_Sleep_CapTouch_Wake/default.hex && pymcuprog write -t nedbg -d attiny1627 -f ${workspaceFolder}/out/Tiny2_BM_Deep_Sleep_CapTouch_Wake/default.hex --erase --verify",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
+}
